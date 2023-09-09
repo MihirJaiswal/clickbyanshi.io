@@ -7,48 +7,34 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+VE/5pF5jx2vJ6F5Bvv5XU6Gtsf5FAy5PjAAKw8Fp5+76xjq" crossorigin="anonymous">
   <style>
 
-    .header-title {
-      font-family: 'Fancy Font', Arial, sans-serif; 
-      font-size: 24px; 
-
-    }
-
-    body, h1, h2, h3, p {
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
       margin: 0;
       padding: 0;
     }
 
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-    }
-
-
     header {
-      background-color: #022e4b; 
+      background-color: #022e4b;
       color: white;
       padding: 10px 0;
     }
 
+    .header-title {
+      font-family: 'Fancy Font', Arial, sans-serif;
+      font-size: 34px;
+      padding: 0;
+      margin-top: 10px;
+      margin-bottom: 5px;
+      margin-left: 10px;
+    }
+
     nav {
-      max-width: 1200px;
-      margin: 0 auto;
+      max-width: 1100px;
+      margin: 0 auto; 
       display: flex;
       justify-content: space-between;
       align-items: center;
-    }
-
-    .logo {
-      font-size: 36px; 
-      font-weight: bold;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-
-    .icon-link {
-      font-size: 20px;
-      color: white;
     }
 
     nav ul {
@@ -70,7 +56,7 @@
       color: #f39c12;
     }
 
-
+    
     .hero {
       background-image: url("anshita1.jpeg");
       background-size: cover;
@@ -113,7 +99,6 @@
       box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
     }
 
-  
     .about {
       padding: 80px 0;
       text-align: center;
@@ -129,7 +114,7 @@
       line-height: 1.6;
     }
 
-  
+
     .contact {
       background-color: #045890;
       color: white;
@@ -142,32 +127,35 @@
       margin-bottom: 20px;
     }
 
-    /
+
     footer {
       text-align: center;
       padding: 20px;
       background-color: #08629e;
       color: white;
     }
+
+
   </style>
 </head>
 <body>
 
   <header>
     <nav>
+      <p class="header-title">
+        Clicks by Anshii 📷
+      </p>
       <ul>
-        <li><span class="header-title">Click by Anshi</span></li>
-        <li style="padding-right: 20px;"><a href="#">Home</a></li>
-        <li style="padding-right: 20px;"><a href="#">About</a></li>
-        <li style="padding-right: 20px;"><a href="#">Services</a></li>
+        <li><a href="index.html.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
     </nav>
   </header>
-  
 
   <section id="home" class="hero">
-    <h1><strong>Welcome to Clicks by Anshi</strong></h1>
+    <h1><strong>Welcome to Clicks by Anshii</strong></h1>
     <p>Capturing Moments, Creating Memories</p>
     <br>
     <br>
@@ -175,18 +163,8 @@
     <br>
   </section>
 
-
   <section class="cta-section">
-    <a href="#portfolio" class="cta-button">View Portfolio</a>
-  </section>
-
-  <!-- Portfolio Section -->
-  <section id="portfolio" class="portfolio">
-    <h2>Portfolio</h2>
-    <img src="sunflower1.jpeg" alt="Sunflower Photo">
-    <img src="portfolio2.jpeg" alt="Portfolio Image 2">
-    <img src="portfolio3.jpeg" alt="Portfolio Image 3">
-   
+    <a href="portfolio.html" class="cta-button">View Portfolio</a>
   </section>
 
   <section id="about" class="about">
@@ -200,12 +178,8 @@
     <p>Feel free to get in touch with me for any inquiries or collaborations.</p>
     <p>Email: anshitarathore137@gmail.com</p>
   </section>
-
   <footer>
     <p>&copy; 2023 Clicks by Anshi. All rights reserved.</p>
   </footer>
 </body>
 </html>
-
-
-
