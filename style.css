@@ -1,0 +1,67 @@
+/* Additional CSS for the extended portfolio section */
+.portfolio {
+    background-color: #f8ffc3;
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .portfolio h2 {
+    font-size: 58px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    color: #333;
+  }
+
+  .portfolio-video {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-video video {
+    max-width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .portfolio-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .portfolio-item {
+    flex: 1;
+    max-width: 300px;
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .portfolio-item img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .portfolio-item h3 {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .portfolio-item p {
+    font-size: 16px;
+    color: #777;
+  }
+  
+  .portfolio-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
