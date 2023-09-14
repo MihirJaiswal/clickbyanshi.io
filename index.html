@@ -61,14 +61,27 @@
     }
 
     
-    .dumbo {
-      background-image: url("anshita1.jpg");
-      background-size: cover;
-      background-position: center;
+      .dumbo {
+      background-image: url("anshita1.jpeg");
+      background-size:cover;
+      background-position: center center;
+      padding: 180px 100px 70px;
+      margin-top: 5px;
+    }
+    .dumbo h1
+    {
       color: white;
       text-align: center;
-      font-size: 20px;
-      padding: 180px 100px 70px;
+      font-size: 35px;
+      font-style: poppins;
+      font-weight:900;
+    }
+    .dumbo p
+    {
+      color: white;
+      text-align: center;
+      font-size: 26px;
+      margin-top: 2px;
     }
 
     .cta-section {
@@ -183,6 +196,7 @@
     <br>
     <br>
     <br>
+    <div id="selection"></div>
   </section>
 
   
@@ -212,6 +226,25 @@
   <footer>
     <p>&copy; 2023 Clicks by Anshi. All rights reserved.</p>
   </footer>
+  <script>
+    function changeBg() {
+      const images = [
+        'url("anshita1.jpeg")',
+        'url("1.jpg")',
+        'url("2.jpg")',
+        'url("3.jpg")',
+        'url("4.jpg")',
+        'url("5.jpg")',
+      ];
+
+      const selection = document.querySelector('#home');
+      const bg = images[Math.floor(Math.random() * images.length)];
+      selection.style.backgroundImage = bg; 
+    }
+
+    setInterval(changeBg, 2000);
+  </script>
+  
 </body>
 </html>
 
