@@ -71,17 +71,22 @@
     .dumbo h1
     {
       color: white;
+      padding: auto;
       text-align: center;
-      font-size: 35px;
+      font-size: 30px;
       font-style: poppins;
       font-weight:900;
+
     }
-    .dumbo p
-    {
-      color: white;
-      text-align: center;
-      font-size: 26px;
-      margin-top: 2px;
+    .container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .container h2{
+      color: #f7f7f7;
+      font-size:25px;
+      margin-top: 5px;
     }
 
     .cta-section {
@@ -181,8 +186,8 @@
         Clicks by Anshii
       </p>
       <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">About</a></li>
+        <li><a href="index.html.html">Home</a></li>
+        <li><a href="12">About</a></li>
         <li><a href="#">Services</a></li>
         <li><a href="#">Contact</a></li>
       </ul>
@@ -190,14 +195,24 @@
   </header>
 
   <section id="home" class="dumbo">
-    <h1><strong>Welcome to Clicks by Anshii</strong></h1>
-    <p>Capturing Moments, Creating Memories</p>
+    <h1><strong><b>Welcome to Clicks by Anshii</b></strong></h1>
+    <div class="container">
+      <h2>Capturing <span class="auto-type"></span></h2>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    
+    <script>
+      var typed = new Typed(".auto-type", {
+        strings: ["Moments", "Memories"],
+        typeSpeed: 150,
+        backSpeed: 150,
+        loop: true
+      });
+    </script>
     <br>
     <br>
     <br>
-    <br>
-    <div id="selection"></div>
-  </section>
+    </section>
 
   
   <section class="cta-section">
