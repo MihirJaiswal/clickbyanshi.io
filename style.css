@@ -1,67 +1,178 @@
-/* Additional CSS for the extended portfolio section */
-.portfolio {
-    background-color: #f8ffc3;
-    padding: 80px 0;
-    text-align: center;
-  }
-  
-  .portfolio h2 {
-    font-size: 58px;
-    margin-bottom: 20px;
-    margin-top: 5px;
-    color: #333;
-  }
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
 
-  .portfolio-video {
-    text-align: center;
-    margin-bottom: 30px;
-  }
+
+header {
+  background-color: #045890;
+  color: white;
+  padding: 10px 0;
+}
+
+.header-title {
+  font-family: 'Noah';
+  font-size: 34px;
+  padding: 0;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 10px;
   
-  .portfolio-video video {
-    max-width: 100%;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: #fff;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-  }
+}
+
+nav {
+  max-width: 1100px;
+  margin: 0 auto; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: transform 0.3s ease-in-out;
+  position: relative;
+  font-size: 20px;
+  padding: 15px 10px;
+  border-radius: 5px;
   
-  .portfolio-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
+}
+
+nav a:hover {
+  color: #f39c12;
+  transform: translate(-5px);
   
-  .portfolio-item {
-    flex: 1;
-    max-width: 300px;
-    margin: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 15px;
-    background-color: #fff;
-    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease-in-out;
-  }
-  
-  .portfolio-item img {
-    max-width: 100%;
-    border-radius: 5px;
-  }
-  
-  .portfolio-item h3 {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #333;
-  }
-  
-  .portfolio-item p {
-    font-size: 16px;
-    color: #777;
-  }
-  
-  .portfolio-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-  }
-  
+}
+
+.know {
+  font-family: 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 10px;
+  max-width: 950px;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.know::before {
+  content: open-quote;
+  font-size: 24px;
+  margin-right: 10px;
+}
+
+.know::after {
+  content: close-quote;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+
+.know a {
+  color: #0078d4;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.know a:hover {
+  color: #004286;
+}
+
+.portfolio {
+  padding: 50px;
+  text-align: center;
+}
+
+.section-title {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.portfolio-video {
+  flex: 1;
+  margin: 0 10px;
+}
+.portfolio-video video {
+  max-width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: #fff;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-gallery {
+  flex: 2;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-item {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  max-width: 200px;
+  text-align: center;
+  background-color: white;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.portfolio-item img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.portfolio-item-title {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.portfolio-item-description {
+  font-size: 18px;
+  color: #555;
+}
+
+.portfolio-item:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
+.separator-line {
+  border-top: 2px solid #a09c9c; 
+  margin: 10px ; 
+  max-width: 100%; 
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #045890;
+  color: white;
+}
