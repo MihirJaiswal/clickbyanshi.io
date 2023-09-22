@@ -177,12 +177,10 @@ footer {
     align-items: flex-start;
   }
   .header-title{
-    font-size: 35px;
-    margin-left: 55px;
-    text-decoration: underline;
+    font-size: 27px;
   }
   .navItems{
-    margin-top: 30px;  
+    margin-top: -13px;  
     background-color: #f39c12;
     width:100%;
     justify-content: space-around;
