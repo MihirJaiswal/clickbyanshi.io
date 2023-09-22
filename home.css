@@ -177,10 +177,14 @@ footer {
     align-items: flex-start;
   }
   .header-title{
-    font-size: 27px;
+    font-size: 44px;
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
   }
   .navItems{
-    margin-top: -13px;  
+    margin-top: -33px;  
     background-color: #f39c12;
     width:100%;
     justify-content: space-around;
