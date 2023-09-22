@@ -223,6 +223,12 @@ footer {
     top: -50px;
     
   }
+  
+  .cta-button{
+    padding: 10px 20px;
+    font-size: 15px;
+  }
+  
   .contact p{
     margin: 10px;
   }
