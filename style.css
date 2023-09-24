@@ -183,12 +183,12 @@ footer {
     align-items: flex-start;
   }
   .header-title{
-    font-size: 55px;
+    font-size: 45px;
     margin-left: 81px;
-    margin-top: 30px;
+    margin-top: -6px;
   }
   nav ul{
-    margin-top: 30px;  
+    margin-top: 10px;  
     background-color: #f39c12;
     width:100%;
     justify-content: space-around;
